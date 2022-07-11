@@ -1,0 +1,24 @@
+{
+  "name": "calculadora-module-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest --forceExit --detectOpenHandles",
+    "test:coverage": "npm run test --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuellendaVinci/calculator-module-pattern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuellendaVinci/calculator-module-pattern/issues"
+  },
+  "homepage": "https://github.com/SuellendaVinci/calculator-module-pattern#readme",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}

@@ -43,27 +43,4 @@ const MODULE = (function () {
   };
 })();
 
-console.log(MODULE);
-
-let n1 = parseInt(prompt("Digite o primeiro número?"));
-let operation = prompt("Digite a operação desejada: \n + \n - \n * \n / ?");
-let n2 = parseInt(prompt("Digite o segundo número?"));
-
-if (operation === "+") {
-  alert(MODULE.add(n1, n2));
-}
-if (operation === "-") {
-  alert(MODULE.sub(n1, n2));
-}
-if (operation === "*") {
-  alert(MODULE.mult(n1, n2));
-}
-
-while (n2 === 0) {
-  if (operation === "/") {
-    alert(MODULE.div(n1, n2));
-    n1 = parseInt(prompt("Digite o primeiro número?"));
-    n2 = parseInt(prompt("Digite o segundo número?"));
-  }
-}
-alert(MODULE.div(n1, n2));
+module.exports = MODULE;
